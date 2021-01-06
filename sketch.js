@@ -50,7 +50,8 @@ function setup() {
   stone1 = new stone(500,430,70,70);
 
   slingShot1 = new slingshot(stone1.body,{x:450,y:445});  
-
+  console.log("sneha");
+  console.log("jalan");
  
 }
 
