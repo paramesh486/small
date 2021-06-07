@@ -20,7 +20,7 @@ function setup() {
   createCanvas(2304,1005);
   engine = Engine.create();
   world = engine.world;
-
+console.log("I am checking the github commands ")
   ///tree and boy sprites
   tree =createSprite(800,370,20,20)
   tree.addImage(treeImg)
