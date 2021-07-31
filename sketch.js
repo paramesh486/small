@@ -8,7 +8,7 @@ const Bodies = Matter.Bodies;
 const Constraint = Matter.Constraint;
 
 var engine, world;
-var box1, box2, box3, box4, box5, box6, box7, box8, box9, box10;
+var box1, box2, box3, box4, box5, box6, box7, box8, box9, box10, box11;
 var tree1, g1, boy1, stone1, slingshot1;
 var stone1
 
@@ -42,6 +42,7 @@ console.log("I am checking the github commands ")
   box8 = new box(650,300,30,50);
   box9 = new box(750,100,30,50);
   box10 = new box(800,150,30,50);
+  box11 = new box(850, 100, 30, 50);
 
  // tree1 = new tree(1800,505,200,700);
 
